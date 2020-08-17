@@ -40,13 +40,14 @@ export class App extends Component {
     var oldCountry = this.state.country;
     this.setState({ country: value })
     Snackbar.show({
-      text: 'Country Updated!',
+      text: 'COUNTRY UPDATED!',
       duration: Snackbar.LENGTH_LONG,
-      backgroundColor: 'rgb(189, 189, 189)',
-      textColor: 'azure',
+      backgroundColor: 'rgba(251, 192, 45,0.80)',
+      textColor: 'rgba(66, 66, 66,1.0)',
+      fontFamily: 'Avenir-Black',
       action: {
         text: 'UNDO',
-        textColor: 'azure',
+        textColor: 'rgba(66, 66, 66,1.0)',
         onPress: () => { this.changeCountry(oldCountry) },
       }
     });
