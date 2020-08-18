@@ -21,7 +21,7 @@ export default class SliderEntry extends Component {
               source={image}
               containerStyle={[styles.imageContainer, even ? styles.imageContainerEven : {}]}
               style={styles.image}
-              parallaxFactor={0.35}
+              parallaxFactor={0.20}
               showSpinner={true}
               spinnerColor={even ? 'rgba(255, 255, 255, 0.4)' : 'rgba(0, 0, 0, 0.25)'}
               {...parallaxProps}
