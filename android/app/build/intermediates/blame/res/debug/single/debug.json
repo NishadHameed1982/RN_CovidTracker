@@ -85,11 +85,11 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/animator_mtrl_extended_fab_show_motion_spec.xml.flat",
@@ -109,7 +109,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -149,7 +149,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/layout-v21/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -201,7 +201,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable/notification_bg_low.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout_mtrl_picker_fullscreen.xml.flat",
@@ -217,7 +217,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -253,7 +253,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable/notification_bg.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -305,7 +305,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/layout-v21/notification_action.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/layout-v21/notification_action.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -469,7 +469,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/color_test_mtrl_calendar_day.xml.flat",
@@ -745,7 +745,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/layout/notification_template_icon_group.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/color_mtrl_card_view_foreground.xml.flat",
@@ -861,7 +861,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable_abc_list_divider_material.xml.flat",
@@ -933,7 +933,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/layout/notification_action_tombstone.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_indicator_material.xml.flat",
@@ -981,7 +981,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
@@ -993,7 +993,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/color_mtrl_outlined_stroke_color.xml.flat",
@@ -1093,7 +1093,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_light.xml.flat",
@@ -1473,7 +1473,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_design_ic_visibility_off.png.flat",
@@ -1525,7 +1525,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable_mtrl_ic_error.xml.flat",
@@ -1537,7 +1537,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/color-v23_abc_tint_edittext.xml.flat",
@@ -1625,7 +1625,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -1641,7 +1641,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable/notification_tile_bg.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable/notification_tile_bg.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -1681,7 +1681,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -1773,7 +1773,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/layout-v16/notification_template_custom_big.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/layout-v16/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_unchecked_box_inner_merged_animation.xml.flat",
@@ -1785,7 +1785,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout_mtrl_calendar_vertical.xml.flat",
@@ -1857,7 +1857,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout_custom_dialog.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/layout/custom_dialog.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/layout/custom_dialog.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/anim_fragment_fade_exit.xml.flat",
@@ -1917,7 +1917,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -1933,7 +1933,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/layout/notification_template_part_time.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_out.xml.flat",
@@ -1981,7 +1981,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/layout/notification_action.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/layout/notification_action.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/animator_mtrl_fab_transformation_sheet_collapse_spec.xml.flat",
@@ -2441,7 +2441,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable/notification_icon_background.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/xml_standalone_badge.xml.flat",
@@ -2449,7 +2449,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable_mtrl_ic_arrow_drop_down.xml.flat",
@@ -2489,7 +2489,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-v21/notification_action_background.xml"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/color_mtrl_tabs_icon_color_selector.xml.flat",
@@ -2513,7 +2513,7 @@
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+        "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",

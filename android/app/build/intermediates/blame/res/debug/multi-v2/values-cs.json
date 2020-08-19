@@ -4,7 +4,7 @@
             "outputFile": "/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml",
             "map": [
                 {
-                    "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/res/values-cs/values-cs.xml",
+                    "source": "/Users/nishadhameed/.gradle/caches/transforms-2/files-2.1/e3ea0d618669db22333686d276e695ac/core-1.5.0-alpha01/res/values-cs/values-cs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

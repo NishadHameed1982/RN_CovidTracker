@@ -11,7 +11,60 @@ import CasesLine from '../components/stats/CasesLine';
 import CasesPie from '../components/stats/CasesPie';
 import CasesHeatMap from '../components/stats/CasesHeatMap'
 
+import NetInfo from "@react-native-community/netinfo";
+import Snackbar from 'react-native-snackbar';
+
 export class StatsScreen extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+       connection_Status: true,
+    }
+}
+
+componentDidMount () {
+  NetInfo.addEventListener(this.handleConnectivityChange);
+
+      this.setState({ connection_Status: "Online" })
+    
+    
+}
+
+componentWillUnmount() {
+  NetInfo.removeEventListener(this.handleConnectivityChange);
+}
+
+handleConnectivityChange = state => {
+
+  var prevStatus = this.state.connection_Status;
+  if (state.isConnected) {
+  //   Alert.alert('online');
+    this.setState({connection_Status: 'Online'});
+   
+  } else {
+  //   Alert.alert('offline');
+    this.setState({connection_Status: 'Offline'});
+    Snackbar.show({
+      text: 'NO NETWORK CONNECTION.\nPlease try again with \nproper internet connection',
+      duration: Snackbar.LENGTH_INDEFINITE,
+      backgroundColor: 'rgba(235, 47, 6,0.80)',
+      textColor: 'rgba(66, 66, 66,1.0)',
+      fontFamily: 'Avenir-Black',
+      action: {
+        text: 'CLOSE',
+        textColor: 'rgba(66, 66, 66,1.0)',
+        onPress: () => {  },
+      }
+      // action: {
+      //     text: 'RECHECK',
+      //     textColor: 'green',
+      //     onPress: () => { this.handleConnectivityChange},
+      //   },
+
+    });
+  }
+};
 
   get gradient () {
     return (

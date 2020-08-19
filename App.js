@@ -9,10 +9,8 @@ import Snackbar from 'react-native-snackbar';
 import StatsScreen from './tabs/StatsScreen';
 import HomeScreen from './tabs/HomeScreen';
 import AdviceScreen from './tabs/AdviceScreen' ;
-// import Prevention from './tabs/Prevention';
-// import Symptoms from './tabs/Symptoms';
-// import HowItSpreads from './tabs/HowItSpreads';
-// import WhatToDo from './tabs/WhatToDo';
+
+
 
 
 
@@ -59,6 +57,7 @@ export class App extends Component {
     const Tab = createMaterialBottomTabNavigator();
     return (
       <NavigationContainer style={styles.container}>
+        
          <Tab.Navigator  barStyle={{ backgroundColor: 'rgb(255, 196, 0)' }}>
 
          <Tab.Screen name="Symptoms" children={() => <AdviceScreen country={this.state.country} />} test={"test"} options={{
@@ -68,8 +67,8 @@ export class App extends Component {
               ),
             }}/>
 
-            <Tab.Screen name="Country" children={() => <HomeScreen changeCountry={this.changeCountry} country={this.state.country} />} options={{
-              tabBarLabel: 'Country',
+            <Tab.Screen name="Countries" children={() => <HomeScreen changeCountry={this.changeCountry} country={this.state.country} />} options={{
+              tabBarLabel: 'Countries',
               tabBarIcon: ({ color }) => (
                 <Icon name='search-plus' color={color} size={25}></Icon>
               ),
