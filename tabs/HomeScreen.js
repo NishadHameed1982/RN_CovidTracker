@@ -48,19 +48,14 @@ handleConnectivityChange = state => {
     Snackbar.show({
       text: 'NO NETWORK CONNECTION.\nPlease try again with proper internet connection',
       duration: Snackbar.LENGTH_INDEFINITE,
-      backgroundColor: 'rgba(235, 47, 6,0.80)',
-      textColor: 'rgba(66, 66, 66,1.0)',
+      backgroundColor: 'rgba(113, 88, 226,1.0)',
+      textColor: 'rgba(25, 25, 25,1.0)',
       fontFamily: 'Avenir-Black',
       action: {
         text: 'CLOSE',
-        textColor: 'rgba(66, 66, 66,1.0)',
-        onPress: () => {  },
+        textColor: 'rgba(25, 25, 25,1.0)',
+        onPress: () => {  Snackbar.dismiss()  },
       }
-      // action: {
-      //     text: 'RECHECK',
-      //     textColor: 'green',
-      //     onPress: () => { this.handleConnectivityChange},
-      //   },
 
     });
   }
