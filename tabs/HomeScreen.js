@@ -37,7 +37,6 @@ componentWillUnmount() {
 
 handleConnectivityChange = state => {
 
-  var prevStatus = this.state.connection_Status;
   if (state.isConnected) {
   //   Alert.alert('online');
     this.setState({connection_Status: 'Online'});
@@ -54,7 +53,7 @@ handleConnectivityChange = state => {
       action: {
         text: 'CLOSE',
         textColor: 'rgba(25, 25, 25,1.0)',
-        onPress: () => {  Snackbar.dismiss()  },
+        onPress: () => { this.HomeScreen},
       }
 
     });
