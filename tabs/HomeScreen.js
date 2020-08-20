@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, ScrollView, Text, View } from 'react-native';
+import { StyleSheet, ScrollView, Text, View, Alert } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 
@@ -12,6 +12,10 @@ import CountrySelector from '../components/CountrySelector';
 
 import NetInfo from "@react-native-community/netinfo";
 import Snackbar from 'react-native-snackbar';
+import OfflinePop from '../components/OfflinePop'
+
+import AlertPassed from "react-native-alert-pro";
+
 
 
 export class HomeScreen extends Component {
@@ -19,46 +23,74 @@ export class HomeScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
-       connection_Status: true,
+      //  connection_Status: true,
+      isConnected: true,
+      unsubscribeNetwork: null,
     }
 }
 
-componentDidMount () {
-  NetInfo.addEventListener(this.handleConnectivityChange);
 
-      this.setState({ connection_Status: "Online" })
-    
-    
-}
+componentDidMount() {
 
-componentWillUnmount() {
-  NetInfo.removeEventListener(this.handleConnectivityChange);
-}
+  this.setState({ 
+    unsubscribeNetwork: NetInfo.addEventListener( state => {
+    this.setState({isConnected: state.isConnected})
 
-handleConnectivityChange = state => {
+    if (!this.state.isConnected) {
 
-  if (state.isConnected) {
-  //   Alert.alert('online');
-    this.setState({connection_Status: 'Online'});
-   
-  } else {
-  //   Alert.alert('offline');
-    this.setState({connection_Status: 'Offline'});
-    Snackbar.show({
-      text: 'NO NETWORK CONNECTION.\nPlease try again with proper internet connection',
-      duration: Snackbar.LENGTH_INDEFINITE,
-      backgroundColor: 'rgba(113, 88, 226,1.0)',
-      textColor: 'rgba(25, 25, 25,1.0)',
-      fontFamily: 'Avenir-Black',
-      action: {
-        text: 'CLOSE',
-        textColor: 'rgba(25, 25, 25,1.0)',
-        onPress: () => { this.HomeScreen},
-      }
+    this.AlertPassed.open()
 
-    });
   }
-};
+  }
+)});
+}
+
+componentWillUnmount(){
+  this.state.unsubscribeNetwork()
+  
+ 
+}
+
+// oflinePopup(){
+  
+// }
+
+// componentDidMount () {
+//   NetInfo.addEventListener(this.handleConnectivityChange);
+
+//       this.setState({ connection_Status: "Online" })
+    
+    
+// }
+
+// componentWillUnmount() {
+//   NetInfo.removeEventListener(this.handleConnectivityChange);
+// }
+
+// handleConnectivityChange = state => {
+
+//   if (state.isConnected) {
+//   //   Alert.alert('online');
+//     this.setState({connection_Status: 'Online'});
+   
+//   } else {
+//   //   Alert.alert('offline');
+//     this.setState({connection_Status: 'Offline'});
+//     Snackbar.show({
+//       text: 'NO NETWORK CONNECTION.\nPlease try again with proper internet connection',
+//       duration: Snackbar.LENGTH_INDEFINITE,
+//       backgroundColor: 'rgba(113, 88, 226,1.0)',
+//       textColor: 'rgba(25, 25, 25,1.0)',
+//       fontFamily: 'Avenir-Black',
+//       action: {
+//         text: 'CLOSE',
+//         textColor: 'rgba(25, 25, 25,1.0)',
+//         onPress: () => { this.HomeScreen},
+//       }
+
+//     });
+//   }
+// };
 
 
   get gradient () {
@@ -72,6 +104,11 @@ handleConnectivityChange = state => {
     );
 }
     render() {
+      // if (!this.state.isConnected) {
+      //   // this.props.navigation.navigate('OfflinePop');
+      //   // Alert.alert("Popup");
+      //   // this.AlertPassed.open()
+      // }
         return (
             <ScrollView style={stylesLocal.container}>
                  { this.gradient }
@@ -85,6 +122,76 @@ handleConnectivityChange = state => {
                     <View style={{borderBottomColor: 'black', borderBottomWidth: StyleSheet.hairlineWidth, marginVertical: 10}}/>
 
                     <LiveCases country={this.props.country}/>
+
+
+
+                    <AlertPassed
+              ref={ref => {
+                this.AlertPassed = ref;
+              }}
+              onConfirm={() => this.AlertPassed.close()}
+            // onCancel={()=> navigation.navigate("Home")}
+            showCancel = {false}
+            closeOnPressMask = {false}
+    
+    
+              // title="Well Done, That's the correct answer. Your score is"
+              title= {"Oops, Something Went Wrong!"}
+              message= {"Please reopen the app after connecting your device back to the Internet."}
+              
+              textConfirm = "Close"
+              textCancel = "Reset"
+              customStyles={{
+                title:{
+                  fontSize: 18,
+                  fontFamily:'MontserratAlternates-Bold',
+                  paddingTop: 2,
+                  textAlign: 'center',
+                  color:'rgba(3, 4, 94,1.0)',
+                },
+                message:{
+                  fontSize: 18,
+                  fontFamily: 'MontserratAlternates-SemiBold',
+                  paddingBottom: 2,
+                  textAlign: 'center',
+                  color:'rgba(3, 4, 94,1.0)',
+                },
+                textCancel:{
+                  fontSize: 18,
+                fontFamily: 'MontserratAlternates-Black',
+                  textAlign: 'center',
+                  color:'rgba(255, 255, 255,1.0)',
+                  paddingLeft: 16,
+                  paddingRight: 16,
+                },
+                textConfirm:{
+                  fontSize: 18,
+                  fontFamily: 'MontserratAlternates-Black' ,
+                  textAlign: 'center',
+                  color:'rgba(255, 255, 255,1.0)',
+                  paddingLeft: 16,
+                  paddingRight: 16,
+                },
+                mask: {
+                  backgroundColor: "transparent"
+                },
+                container: {
+                  borderWidth: 0,
+                  shadowOpacity: 0.1,
+                  shadowRadius: 8,
+                  backgroundColor:'rgba(245, 205, 121,1.0)',
+                  borderRadius: 8,
+                },
+                buttonCancel: {
+                  backgroundColor: 'rgba(0, 176, 255,1.0)',
+                  borderRadius: 24,
+                },
+                buttonConfirm: {
+                  backgroundColor: 'rgba(0, 176, 255,1.0)',
+                  borderRadius: 24,
+                }
+              }}
+            />
                 </View>
 
             </ScrollView> 
