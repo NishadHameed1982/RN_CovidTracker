@@ -12,54 +12,70 @@ import CasesPie from '../components/stats/CasesPie';
 import CasesHeatMap from '../components/stats/CasesHeatMap'
 
 import NetInfo from "@react-native-community/netinfo";
-import Snackbar from 'react-native-snackbar';
+// import Snackbar from 'react-native-snackbar';
+
+import AlertPassed from "react-native-alert-pro";
 
 export class StatsScreen extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-       connection_Status: true,
+      isConnected: true,
+      unsubscribeNetwork: null,
     }
 }
 
-componentDidMount () {
-  NetInfo.addEventListener(this.handleConnectivityChange);
 
-      this.setState({ connection_Status: "Online" })
-    
-    
-}
+componentDidMount() {
 
-componentWillUnmount() {
-  NetInfo.removeEventListener(this.handleConnectivityChange);
-}
+  this.setState({ 
+    unsubscribeNetwork: NetInfo.addEventListener( state => {
+    this.setState({isConnected: state.isConnected})
 
-handleConnectivityChange = state => {
+    if (!this.state.isConnected) {
 
-  var prevStatus = this.state.connection_Status;
-  if (state.isConnected) {
-  //   Alert.alert('online');
-    this.setState({connection_Status: 'Online'});
-   
-  } else {
-  //   Alert.alert('offline');
-    this.setState({connection_Status: 'Offline'});
-    Snackbar.show({
-      text: 'NO NETWORK CONNECTION.\nPlease try again with proper internet connection',
-      duration: Snackbar.LENGTH_INDEFINITE,
-      backgroundColor: 'rgba(113, 88, 226,1.0)',
-      textColor: 'rgba(25, 25, 25,1.0)',
-      fontFamily: 'Avenir-Black',
-      action: {
-        text: 'CLOSE',
-        textColor: 'rgba(25, 25, 25,1.0)',
-        onPress: () => {  Snackbar.dismiss()  },
-      }
+    this.AlertPassed.open()
 
-    });
   }
-};
+  }
+)});
+}
+
+
+componentWillUnmount(){
+  this.state.unsubscribeNetwork()
+  
+ 
+}
+
+
+
+// handleConnectivityChange = state => {
+
+//   var prevStatus = this.state.connection_Status;
+//   if (state.isConnected) {
+//   //   Alert.alert('online');
+//     this.setState({connection_Status: 'Online'});
+   
+//   } else {
+//   //   Alert.alert('offline');
+//     this.setState({connection_Status: 'Offline'});
+//     // Snackbar.show({
+//     //   text: 'NO NETWORK CONNECTION.\nPlease try again with proper internet connection',
+//     //   duration: Snackbar.LENGTH_INDEFINITE,
+//     //   backgroundColor: 'rgba(113, 88, 226,1.0)',
+//     //   textColor: 'rgba(25, 25, 25,1.0)',
+//     //   fontFamily: 'Avenir-Black',
+//     //   action: {
+//     //     text: 'CLOSE',
+//     //     textColor: 'rgba(25, 25, 25,1.0)',
+//     //     onPress: () => {  Snackbar.dismiss()  },
+//     //   }
+
+//     // });
+//   }
+// };
 
 
   get gradient () {
@@ -96,6 +112,74 @@ handleConnectivityChange = state => {
           <GlobalTable /> 
           
         </ScrollView>
+
+        <AlertPassed
+              ref={ref => {
+                this.AlertPassed = ref;
+              }}
+              onConfirm={() => this.AlertPassed.close()}
+            // onCancel={()=> navigation.navigate("Home")}
+            showCancel = {false}
+            closeOnPressMask = {false}
+    
+    
+              // title="Well Done, That's the correct answer. Your score is"
+              title= {"Oops, Something Went Wrong!\n\nNetwork Error"}
+              message= {"Please connect to the internet and restart your app for accurate results."}
+              
+              textConfirm = "Close"
+              textCancel = "Reset"
+              customStyles={{
+                title:{
+                  fontSize: 18,
+                  fontFamily:'MontserratAlternates-Bold',
+                  paddingTop: 2,
+                  textAlign: 'center',
+                  color:'rgba(3, 4, 94,1.0)',
+                },
+                message:{
+                  fontSize: 18,
+                  fontFamily: 'MontserratAlternates-SemiBold',
+                  paddingBottom: 2,
+                  textAlign: 'center',
+                  color:'rgba(3, 4, 94,1.0)',
+                },
+                textCancel:{
+                  fontSize: 18,
+                fontFamily: 'MontserratAlternates-Black',
+                  textAlign: 'center',
+                  color:'rgba(255, 255, 255,1.0)',
+                  paddingLeft: 16,
+                  paddingRight: 16,
+                },
+                textConfirm:{
+                  fontSize: 18,
+                  fontFamily: 'MontserratAlternates-Black' ,
+                  textAlign: 'center',
+                  color:'rgba(255, 255, 255,1.0)',
+                  paddingLeft: 16,
+                  paddingRight: 16,
+                },
+                mask: {
+                  backgroundColor: "transparent"
+                },
+                container: {
+                  borderWidth: 0,
+                  shadowOpacity: 0.1,
+                  shadowRadius: 8,
+                  backgroundColor:'rgba(104, 109, 224,1.0)',
+                  borderRadius: 8,
+                },
+                buttonCancel: {
+                  backgroundColor: 'rgba(0, 176, 255,1.0)',
+                  borderRadius: 24,
+                },
+                buttonConfirm: {
+                  backgroundColor: 'rgba(0, 176, 255,1.0)',
+                  borderRadius: 24,
+                }
+              }}
+            />
       </ScrollView>
     )
   }

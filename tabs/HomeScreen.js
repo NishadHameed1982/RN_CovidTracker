@@ -136,8 +136,8 @@ componentWillUnmount(){
     
     
               // title="Well Done, That's the correct answer. Your score is"
-              title= {"Oops, Something Went Wrong!"}
-              message= {"Please reopen the app after connecting your device back to the Internet."}
+              title= {"Oops, Something Went Wrong!\n\nNetwork Error"}
+              message= {"Please connect to the internet and restart your app for accurate results."}
               
               textConfirm = "Close"
               textCancel = "Reset"
@@ -179,7 +179,7 @@ componentWillUnmount(){
                   borderWidth: 0,
                   shadowOpacity: 0.1,
                   shadowRadius: 8,
-                  backgroundColor:'rgba(245, 205, 121,1.0)',
+                  backgroundColor:'rgba(104, 109, 224,1.0)',
                   borderRadius: 8,
                 },
                 buttonCancel: {
