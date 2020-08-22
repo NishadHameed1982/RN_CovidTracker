@@ -167,7 +167,7 @@ componentWillUnmount(){
                   borderWidth: 0,
                   shadowOpacity: 0.1,
                   shadowRadius: 8,
-                  backgroundColor:'rgba(104, 109, 224,1.0)',
+                  backgroundColor:'rgba(255, 224, 130,1.0)',
                   borderRadius: 8,
                 },
                 buttonCancel: {
