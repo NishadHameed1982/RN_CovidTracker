@@ -1,4 +1,4 @@
-#Sat Aug 22 14:46:28 GST 2020
+#Mon Aug 24 14:55:38 GST 2020
 base.0=/Users/nishadhameed/MyCovid19Tracker/MyCovidTracker/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

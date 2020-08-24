@@ -83,7 +83,7 @@ constructor(props){
                   activeSlideAlignment={'center'}
                   containerCustomStyle={styles.slider}
                   contentContainerCustomStyle={styles.sliderContentContainer}
-                  loop={true}
+                  loop={false}
                   loopClonesPerSide={2}
                   autoplay={true}
                   autoplayDelay={500}

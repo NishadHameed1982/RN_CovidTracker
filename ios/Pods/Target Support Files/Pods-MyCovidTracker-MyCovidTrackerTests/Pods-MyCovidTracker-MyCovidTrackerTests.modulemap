@@ -1,0 +1,6 @@
+module Pods_MyCovidTracker_MyCovidTrackerTests {
+  umbrella header "Pods-MyCovidTracker-MyCovidTrackerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
