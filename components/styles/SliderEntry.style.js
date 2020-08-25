@@ -83,7 +83,7 @@ export default StyleSheet.create({
         backgroundColor: 'rgb(0, 145, 234)',
         borderBottomLeftRadius: entryBorderRadius,
         borderBottomRightRadius: entryBorderRadius,
-        height: slideHeight*0.43,
+        height: slideHeight*0.48,
 
     },
     textContainerEven: {
@@ -94,7 +94,7 @@ export default StyleSheet.create({
         backgroundColor: 'rgb(0, 145, 234)',
         borderBottomLeftRadius: entryBorderRadius,
         borderBottomRightRadius: entryBorderRadius,
-       height: slideHeight*0.43,
+       height: slideHeight*0.48,
     
     
     },
