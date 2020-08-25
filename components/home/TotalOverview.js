@@ -57,27 +57,27 @@ const styles = StyleSheet.create({
     },
 
     tableHeader: {
-        // fontWeight: 'bold',
+        fontWeight: 'bold',
         fontFamily: 'Avenir-Black',
         fontSize: 18
     },
 
     tableBodyConfirmed: {
-        // fontWeight: 'bold',
+        fontWeight: 'bold',
         color: 'darkblue',
         fontFamily: 'Avenir-Black',
         fontSize: 18
     },
 
     tableBodyRecovered: {
-        // fontWeight: 'bold',
+        fontWeight: 'bold',
         color: 'forestgreen',
         fontFamily: 'Avenir-Black',
         fontSize: 18
     },
 
     tableBodyDeaths: {
-        // fontWeight: 'bold',
+        fontWeight: 'bold',
         color: 'firebrick',
         fontFamily: 'Avenir-Black',
         fontSize: 18

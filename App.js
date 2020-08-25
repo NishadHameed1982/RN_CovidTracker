@@ -36,18 +36,30 @@ export class App extends Component {
 
   changeCountry = (value) => {
     var oldCountry = this.state.country;
+    var selectedCountry = value;
     this.setState({ country: value })
     Snackbar.show({
-      text: 'COUNTRY UPDATED!',
-      duration: Snackbar.LENGTH_LONG,
+      // text: 'COUNTRY UPDATED!',
+      text: selectedCountry.toUpperCase() + ' HAS BEEN SELECTED!' ,
+      duration: Snackbar.LENGTH_SHORT,
       backgroundColor: 'rgba(251, 192, 45,0.80)',
       textColor: 'rgba(66, 66, 66,1.0)',
-      fontFamily: 'Avenir-Black',
-      action: {
-        text: 'UNDO',
-        textColor: 'rgba(66, 66, 66,1.0)',
-        onPress: () => { this.changeCountry(oldCountry) },
-      }
+      // fontFamily: 'Avenir-Black',
+
+      // action: {
+      //   text: 'UNDO',
+      //   textColor: 'rgba(66, 66, 66,1.0)',
+      //   onPress: () => { this.changeCountry(oldCountry) },
+      // }
+
+
+
+  //  action: {
+  //       text: 'updated!!',
+  //       textColor: 'rgba(66, 66, 66,1.0)',
+  //       onPress: () => {  },
+  //     }
+
     });
   }
 
@@ -93,7 +105,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'rgb(255, 196, 0)',
-    justifyContent: 'center'
+    justifyContent: 'center',
 
   },
 });

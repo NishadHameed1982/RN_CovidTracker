@@ -14,7 +14,8 @@ export const colors = {
 export default StyleSheet.create({
     safeArea: {
         flex: 1,
-        backgroundColor: colors.black
+        backgroundColor: colors.black,
+        paddingTop: 100
     },
     container: {
         flex: 1,
@@ -27,7 +28,8 @@ export default StyleSheet.create({
         flex: 1
     },
     exampleContainer: {
-        paddingVertical: 15
+        paddingVertical: 15,
+       
     },
     exampleContainerDark: {
         backgroundColor: colors.black

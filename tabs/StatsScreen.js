@@ -90,7 +90,7 @@ componentWillUnmount(){
 }
   render() {
     return (
-      <ScrollView>
+      <ScrollView >
         { this.gradient }
         <Header title='COVID TRACKER'/>
 
@@ -100,14 +100,14 @@ componentWillUnmount(){
           <Text style={stylesLocal.title}>Total Confirmed: Last 15 Days</Text>
           <CasesLine country={this.props.country} />
 
-          <Text style={stylesLocal.title}>Cases Heatmap Timeline</Text>
-          <CasesHeatMap country={this.props.country}/>
+          {/* <Text style={stylesLocal.title}>Cases Heatmap Timeline</Text>
+          <CasesHeatMap country={this.props.country}/> */}
 
           <Text style={stylesLocal.title}>Total Cases Ratio</Text>
           <CasesPie country={this.props.country} /> 
-          <View style={{borderBottomColor: 'black', borderBottomWidth: StyleSheet.hairlineWidth, marginVertical: 5}}/>
+          <View style={{borderBottomColor: 'black', borderBottomWidth: StyleSheet.hairlineWidth, marginVertical: 12}}/>
 
-          <Text style={stylesLocal.headline}><Icon name='globe' size={19} /> STATISTICS: GLOBAL</Text>
+          <Text style={stylesLocal.headline}><Icon name='globe' size={19} />GLOBAL STATISTICS</Text>
           <Text style={stylesLocal.title}>Global Overview</Text>
           <GlobalTable /> 
           
@@ -186,6 +186,13 @@ componentWillUnmount(){
 }
 
 const stylesLocal = StyleSheet.create({
+
+  maincontainer: {
+    marginVertical: 8,
+    marginHorizontal: 8,
+    // marginLeft: 0
+
+  },
   container: {
     marginVertical: 8,
     marginHorizontal: 8,

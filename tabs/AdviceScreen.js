@@ -86,7 +86,7 @@ constructor(props){
                   loop={false}
                   loopClonesPerSide={2}
                   autoplay={true}
-                  autoplayDelay={500}
+                //   autoplayDelay={500}
                   autoplayInterval={3000}
                   onSnapToItem={(index) => this.setState({ slider1ActiveSlide: index }) }
                 />

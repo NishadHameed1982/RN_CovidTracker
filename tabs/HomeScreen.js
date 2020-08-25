@@ -9,6 +9,7 @@ import styles, { colors } from '../components/styles/index.style';
 import LiveCases from '../components/home/AllOverview';
 import Header from '../components/Header';
 import CountrySelector from '../components/CountrySelector'; 
+import NewCountrySelector from '../components/NewCountrySelector'; 
 
 import NetInfo from "@react-native-community/netinfo";
 import Snackbar from 'react-native-snackbar';
@@ -117,7 +118,8 @@ componentWillUnmount(){
                 <View style={stylesLocal.inner}>
                     <Text style={stylesLocal.title}><Icon name='flag' size={17}>&nbsp;</Icon>{"SELECT COUNTRY "}</Text>
 
-                    <CountrySelector changeCountry={this.props.changeCountry} country={this.props.country} />
+                    {/* <CountrySelector changeCountry={this.props.changeCountry} country={this.props.country} /> */}
+                    <NewCountrySelector changeCountry={this.props.changeCountry} country={this.props.country} />
 
                     <View style={{borderBottomColor: 'black', borderBottomWidth: StyleSheet.hairlineWidth, marginVertical: 10}}/>
 
@@ -203,11 +205,13 @@ const stylesLocal = StyleSheet.create({
   container: {
     // flex: 1,
     // backgroundColor: 'rgb(255, 255, 255)',
+    // marginVertical: 8,
+    // marginHorizontal: 8,
   },
   
   inner: {
     marginHorizontal: 15,
-    marginVertical: 8,
+    marginVertical: 10,
     // backgroundColor: 'rgb(255, 255, 255)',
   },
 
@@ -217,6 +221,7 @@ const stylesLocal = StyleSheet.create({
     fontFamily: 'Avenir-Black',
     fontSize: 18,
     marginVertical: 5,
+
   
    
     }

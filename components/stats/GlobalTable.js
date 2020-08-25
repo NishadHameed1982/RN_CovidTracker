@@ -38,7 +38,7 @@ export class GlobalTable extends Component {
                 <View>
                     <DataTable style={styles.table}>
                         <DataTable.Header>
-                            <DataTable.Title><Text style={styles.tableHeader}><Icon name='bars' size={16}>&ensp;</Icon>Category</Text></DataTable.Title>
+                            <DataTable.Title><Text style={styles.tableHeader}><Icon name='bars' size={18}>&ensp;</Icon>Category</Text></DataTable.Title>
                             <DataTable.Title numeric><Text style={styles.tableHeader}>New Cases</Text></DataTable.Title>
                             <DataTable.Title numeric><Text style={styles.tableHeader}>Total Cases</Text></DataTable.Title>
                         </DataTable.Header>
@@ -75,31 +75,30 @@ const styles = StyleSheet.create({
     },
 
     tableHeader: {
-        // fontWeight: 'bold',
-        // fontSize: 16
+         fontWeight: 'bold',
+         fontSize: 19,
         fontFamily: 'Avenir-Black',
-        fontSize: 16,
     },
 
     tableBodyConfirmed: {
-        // fontWeight: 'bold',
+         fontWeight: 'bold',
         color: 'darkblue',
         fontFamily: 'Avenir-Black',
-    fontSize: 16,
+    fontSize: 18,
     },
 
     tableBodyRecovered: {
-        // fontWeight: 'bold',
+        fontWeight: 'bold',
         color: 'forestgreen',
         fontFamily: 'Avenir-Black',
-        fontSize: 16,
+        fontSize: 18,
     },
 
     tableBodyDeaths: {
-        // fontWeight: 'bold',
+         fontWeight: 'bold',
         color: 'firebrick',
         fontFamily: 'Avenir-Black',
-    fontSize: 16,
+    fontSize: 18,
     },
 
     spinner: {
