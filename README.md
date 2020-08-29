@@ -43,11 +43,19 @@ The main purpose of this application is to provide information about the main sy
     <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_001.png" width=270 height=480></td>
     <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_002.png" width=270 height=480></td>
     <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_003.png" width=270 height=480></td>
+  </tr>
+ </table>
+
+<table>
+  <tr>
+     <td>iPhone Screenshots</td>
+     <td>iPhone Screenshots</td>
+  </tr>
+  <tr>
        <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_004.png" width=270 height=480></td>
     <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_005.png" width=270 height=480></td>
   </tr>
  </table>
-
 
 
 
