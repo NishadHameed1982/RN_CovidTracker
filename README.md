@@ -20,9 +20,9 @@ The main purpose of this application is to provide information about the main sy
      <td>Android Screenshots</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/cvdtracker_001.png" width=270 height=480></td>
-    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/cvdtracker_002.png" width=270 height=480></td>
-    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/cvdtracker_003.png" width=270 height=480></td>
+    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/cvdtracker_001.png" width=270 height=580></td>
+    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/cvdtracker_002.png" width=270 height=580></td>
+    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/cvdtracker_003.png" width=270 height=580></td>
   </tr>
  </table>
 
