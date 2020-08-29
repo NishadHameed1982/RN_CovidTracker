@@ -58,7 +58,7 @@ The main purpose of this application is to provide information about the main sy
  </table>
 
 
-Check out <https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/README.md> for more details about my COVID19Tracker App developed on React Native.
+
 
 
 
