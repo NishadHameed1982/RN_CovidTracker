@@ -13,11 +13,11 @@ The main purpose of this application is to provide information about the main sy
 
 ## Android App Details:<h2>
 
-![alt text](https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/cvdtracker_001.png){: width=150 height=100 style="float:right; padding:16px"}
+![alt text](https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/cvdtracker_001.png)
 
-![alt text](https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/cvdtracker_002.png){: width=150 height=100 style="float:right; padding:16px"}
+![alt text](https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/cvdtracker_002.png)
 
-![alt text](https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/cvdtracker_003.png){: width=150 height=100 style="float:right; padding:16px"}
+![alt text](https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/cvdtracker_003.png)
 
 
 
