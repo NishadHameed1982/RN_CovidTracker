@@ -40,9 +40,9 @@ The main purpose of this application is to provide information about the main sy
      <td>iPhone Screenshots</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_001.png" width=330 height=580></td>
-    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_002.png" width=330 height=580></td>
-    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_003.png" width=330 height=580></td>
+    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_001.png" width=300 height=580></td>
+    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_002.png" width=300 height=580></td>
+    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_003.png" width=300 height=580></td>
   </tr>
  </table>
 
@@ -52,8 +52,8 @@ The main purpose of this application is to provide information about the main sy
      <td>iPhone Screenshots</td>
   </tr>
   <tr>
-       <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_004.png" width=330 height=580></td>
-    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_005.png" width=330 height=580></td>
+       <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_004.png" width=300 height=580></td>
+    <td><img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/iPhoneXSMax_005.png" width=300 height=580></td>
   </tr>
  </table>
 
