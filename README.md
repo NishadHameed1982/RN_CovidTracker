@@ -2,7 +2,7 @@
 
 ![alt text](https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/mycovidtracker_featureimage_001.png)
 
-![alt text](https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/2020-09-18-13-48-06-trim_6pOQvkbv.compressed.mp4)
+[![Watch the video](https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/2020-09-18-13-48-06-trim_6pOQvkbv.compressed.mp4)
 
 
 # COVID Tracker 
