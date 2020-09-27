@@ -17,10 +17,6 @@ The main purpose of this application is to provide information about the main sy
 
 ## Android App Details:
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/2020-09-18-13-48-06-trim_6pOQvkbv.compressed.mp4" type="video/mp4">
-</video>
-
 <table>
   <tr>
     <td>Android Screenshots</td>
