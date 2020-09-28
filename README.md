@@ -14,6 +14,9 @@ The main purpose of this application is to provide information about the main sy
 [![COVIDTrackerDemo](https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/3GMnEByEqz4l_1154_323.png "App Demo Video" )](https://www.youtube.com/watch?v=X4_AvmhQw7w)
 
 
+<img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/3GMnEByEqz4l_1154_323.png" alt="drawing" width="200"/>
+
+
 
 
 ## Android App Details:
