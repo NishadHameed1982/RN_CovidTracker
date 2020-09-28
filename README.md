@@ -12,7 +12,7 @@ The main purpose of this application is to provide information about the main sy
 
 [![asciicast](https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/3GMnEByEqz4l_1154_323.png)](https://www.youtube.com/watch?v=X4_AvmhQw7w)
 
-[<img src="(https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/3GMnEByEqz4l_1154_323.png" width="50%" height="50%">](https://www.youtube.com/watch?v=X4_AvmhQw7w)
+[![asciicast][<img src="(https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/3GMnEByEqz4l_1154_323.png" width="50%" height="50%">](https://www.youtube.com/watch?v=X4_AvmhQw7w)
 
 
 
