@@ -2,7 +2,6 @@
 
 ![alt text](https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/mycovidtracker_featureimage_001.png)
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.youtube.com/watch?v=X4_AvmhQw7w)
 
 # COVID Tracker 
 
@@ -11,7 +10,7 @@ COVID Tracker is simple React Native application designed for you to stay inform
 
 The main purpose of this application is to provide information about the main symptoms and recommendations from WHO using highly user-friendly and visually engaging interface. Application also bring actual statistics about the coronavirus spreading on a simple and informative dashboard.
 
-
+[![asciicast](https://asciinema.org/a/113463.png)](https://www.youtube.com/watch?v=X4_AvmhQw7w)
 
 
 
