@@ -13,10 +13,6 @@ The main purpose of this application is to provide information about the main sy
 [<img src="https://github.com/NishadHameed1982/RN_CovidTracker/blob/master/docs/3GMnEByEqz4l_1154_323.png" alt="drawing" width="400"/>](https://youtu.be/5Q25iAn7Bp8)
 
 
- <iframe src="https://youtu.be/5Q25iAn7Bp8" class="is-fullwidth" height="315px"
-    </iframe>
-
-
 
 
 ## Android App Details:
